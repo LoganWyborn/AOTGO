@@ -1,0 +1,275 @@
+{
+	"Waves": [
+		{
+			"WaveUnits": [
+				{
+					"MobToSpawn": {
+						"speed": 80,
+						"maxHitPoints": 6,
+						"goldValue": 2,
+						"Modulate": "#ffffff"
+					},
+					"NumToSpawn": 20,
+					"StartDelay": 0,
+					"SpawnDelay": 0.75
+				}
+			]
+		},
+		{
+			"WaveUnits": [
+				{
+					"MobToSpawn": {
+						"speed": 60,
+						"maxHitPoints": 12,
+						"goldValue": 3,
+						"Modulate": "#4080ff"
+					},
+					"NumToSpawn": 12,
+					"StartDelay": 0,
+					"SpawnDelay": 1.75
+				}
+			]
+		},
+		{
+			"WaveUnits": [
+				{
+					"MobToSpawn": {
+						"speed": 80,
+						"maxHitPoints": 12,
+						"goldValue": 2,
+						"Modulate": "#ffff00"
+					},
+					"NumToSpawn": 25,
+					"StartDelay": 0,
+					"SpawnDelay": 0.75
+				}
+			]
+		},
+		{
+			"WaveUnits": [
+				{
+					"MobToSpawn": {
+						"speed": 90,
+						"maxHitPoints": 12,
+						"goldValue": 2,
+						"Modulate": "#ff8000"
+					},
+					"NumToSpawn": 20,
+					"StartDelay": 0,
+					"SpawnDelay": 0.8
+				},
+				{
+					"MobToSpawn": {
+						"speed": 50,
+						"maxHitPoints": 18,
+						"goldValue": 3,
+						"Modulate": "#4080ff"
+					},
+					"NumToSpawn": 10,
+					"StartDelay": 8,
+					"SpawnDelay": 1.5
+				}
+			]
+		},
+		{
+			"WaveUnits": [
+				{
+					"MobToSpawn": {
+						"speed": 100,
+						"maxHitPoints": 14,
+						"goldValue": 2,
+						"Modulate": "#40ff40"
+					},
+					"NumToSpawn": 20,
+					"StartDelay": 0,
+					"SpawnDelay": 0.8
+				},
+				{
+					"MobToSpawn": {
+						"speed": 110,
+						"maxHitPoints": 17,
+						"goldValue": 3,
+						"Modulate": "#00ff00"
+					},
+					"NumToSpawn": 15,
+					"StartDelay": 12,
+					"SpawnDelay": 0.8
+				},
+				{
+					"MobToSpawn": {
+						"speed": 120,
+						"maxHitPoints": 20,
+						"goldValue": 4,
+						"Modulate": "#00bb00"
+					},
+					"NumToSpawn": 10,
+					"StartDelay": 24,
+					"SpawnDelay": 0.8
+				}
+			]
+		},
+		{
+			"WaveUnits": [
+				{
+					"MobToSpawn": {
+						"speed": 80,
+						"maxHitPoints": 16,
+						"goldValue": 3,
+						"Modulate": "#ff8000"
+					},
+					"NumToSpawn": 20,
+					"StartDelay": 0,
+					"SpawnDelay": 0.75
+				},
+				{
+					"MobToSpawn": {
+						"speed": 60,
+						"maxHitPoints": 25,
+						"goldValue": 3,
+						"Modulate": "#4080ff"
+					},
+					"NumToSpawn": 10,
+					"StartDelay": 3,
+					"SpawnDelay": 1.25
+				}
+			]
+		},
+		{
+			"WaveUnits": [
+				{
+					"MobToSpawn": {
+						"speed": 120,
+						"maxHitPoints": 22,
+						"goldValue": 5,
+						"Modulate": "#00bb00"
+					},
+					"NumToSpawn": 20,
+					"StartDelay": 0,
+					"SpawnDelay": 0.8
+				}
+			]
+		},
+		{
+			"WaveUnits": [
+				{
+					"MobToSpawn": {
+						"speed": 60,
+						"maxHitPoints": 32,
+						"goldValue": 3,
+						"Modulate": "#4080ff"
+					},
+					"NumToSpawn": 15,
+					"StartDelay": 0,
+					"SpawnDelay": 1
+				},
+				{
+					"MobToSpawn": {
+						"speed": 90,
+						"maxHitPoints": 25,
+						"goldValue": 3,
+						"Modulate": "#ff8000"
+					},
+					"NumToSpawn": 15,
+					"StartDelay": 5,
+					"SpawnDelay": 1
+				},
+				{
+					"MobToSpawn": {
+						"speed": 120,
+						"maxHitPoints": 22,
+						"goldValue": 3,
+						"Modulate": "#00bb00"
+					},
+					"NumToSpawn": 15,
+					"StartDelay": 10,
+					"SpawnDelay": 1
+				}
+			]
+		},
+		{
+			"WaveUnits": [
+				{
+					"MobToSpawn": {
+						"speed": 60,
+						"maxHitPoints": 35,
+						"goldValue": 4,
+						"Modulate": "#4080ff"
+					},
+					"NumToSpawn": 15,
+					"StartDelay": 0,
+					"SpawnDelay": 1
+				},
+				{
+					"MobToSpawn": {
+						"speed": 120,
+						"maxHitPoints": 26,
+						"goldValue": 5,
+						"Modulate": "#00bb00"
+					},
+					"NumToSpawn": 15,
+					"StartDelay": 2,
+					"SpawnDelay": 2
+				}
+			]
+		},
+		{
+			"WaveUnits": [
+				{
+					"MobToSpawn": {
+						"speed": 90,
+						"maxHitPoints": 24,
+						"goldValue": 3,
+						"Modulate": "#ff8000"
+					},
+					"NumToSpawn": 30,
+					"StartDelay": 0,
+					"SpawnDelay": 0.5
+				},
+				{
+					"MobToSpawn": {
+						"speed": 120,
+						"maxHitPoints": 28,
+						"goldValue": 3,
+						"Modulate": "#00bb00"
+					},
+					"NumToSpawn": 15,
+					"StartDelay": 0,
+					"SpawnDelay": 1
+				},
+				{
+					"MobToSpawn": {
+						"speed": 65,
+						"maxHitPoints": 45,
+						"goldValue": 3,
+						"Modulate": "#4080ff"
+					},
+					"NumToSpawn": 20,
+					"StartDelay": 25,
+					"SpawnDelay": 0.8
+				},
+				{
+					"MobToSpawn": {
+						"speed": 90,
+						"maxHitPoints": 24,
+						"goldValue": 3,
+						"Modulate": "#ff8000"
+					},
+					"NumToSpawn": 15,
+					"StartDelay": 45,
+					"SpawnDelay": 0.5
+				},
+				{
+					"MobToSpawn": {
+						"speed": 120,
+						"maxHitPoints": 40,
+						"goldValue": 3,
+						"Modulate": "#000000"
+					},
+					"NumToSpawn": 15,
+					"StartDelay": 45,
+					"SpawnDelay": 1
+				}
+			]
+		}
+	]
+}

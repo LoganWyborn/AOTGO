@@ -1,0 +1,17 @@
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\obj\Debug\TDGame2.csproj.AssemblyReference.cache
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\obj\Debug\TDGame2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\obj\Debug\TDGame2.AssemblyInfoInputs.cache
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\obj\Debug\TDGame2.AssemblyInfo.cs
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\obj\Debug\TDGame2.csproj.CoreCompileInputs.cache
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\bin\Debug\TDGame2.deps.json
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\bin\Debug\TDGame2.runtimeconfig.json
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\bin\Debug\TDGame2.dll
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\bin\Debug\TDGame2.pdb
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\obj\Debug\TDGame2.csproj.CopyComplete
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\obj\Debug\TDGame2.dll
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\obj\Debug\refint\TDGame2.dll
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\obj\Debug\TDGame2.pdb
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\obj\Debug\TDGame2.genruntimeconfig.cache
+C:\Users\logan\Documents\Projects\Godot\TDGame2\.godot\mono\temp\obj\Debug\ref\TDGame2.dll

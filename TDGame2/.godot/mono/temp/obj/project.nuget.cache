@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "58XiaevK9cVfY8B9t0R2sL/gzuPJ/itFWF7SiLfr89HXjpJ7CuDBIOuWIRvEi1Ztb7urRcg7P5yNTihJaM8TfQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\logan\\Documents\\Projects\\Godot\\TDGame2\\TDGame2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\logan\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "C:\\Users\\logan\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "C:\\Users\\logan\\.nuget\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://da2okknijbolx"]
+
+[ext_resource type="Script" path="res://scripts/RangedTower.cs" id="1_4mt5a"]
+[ext_resource type="PackedScene" uid="uid://mkpg5ieg3yhi" path="res://Projectile.tscn" id="2_ag8er"]
+[ext_resource type="Texture2D" uid="uid://bki8x20nmwpy2" path="res://Sprites/custom/Solaria_Pedestal.png" id="3_dljnc"]
+
+[node name="RangedTower" type="Node2D" groups=["towerGroup"]]
+z_index = 2
+script = ExtResource("1_4mt5a")
+projScene = ExtResource("2_ag8er")
+projSpeed = 300.0
+targetingRangePx = 220.0
+AttackCooldown = 2.5
+AttackDamage = 5
+cost = 20
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("3_dljnc")
+offset = Vector2(0, -8)
+
+[node name="Cooldown" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[node name="Selector" type="Button" parent="."]
+visibility_layer = 0
+offset_left = -8.0
+offset_top = -24.0
+offset_right = 8.0
+offset_bottom = 8.0
+disabled = true
+
+[connection signal="timeout" from="Cooldown" to="." method="OnCooldownTimeout"]
+[connection signal="pressed" from="Selector" to="." method="OnSelectorPressed"]

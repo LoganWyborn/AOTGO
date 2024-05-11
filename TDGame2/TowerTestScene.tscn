@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://bxfnfvylg8ib1"]
+
+[ext_resource type="PackedScene" uid="uid://bwkjlpmsk1smx" path="res://Mob.tscn" id="1_cigvi"]
+[ext_resource type="Script" path="res://TestMob.cs" id="2_ihvc2"]
+[ext_resource type="PackedScene" uid="uid://da2okknijbolx" path="res://RangedTower.tscn" id="3_xws28"]
+[ext_resource type="PackedScene" uid="uid://mkpg5ieg3yhi" path="res://Projectile.tscn" id="4_sclmo"]
+
+[node name="TowerTestScene" type="Node2D"]
+
+[node name="Mob" parent="." instance=ExtResource("1_cigvi")]
+position = Vector2(0, 112)
+script = ExtResource("2_ihvc2")
+
+[node name="RangedTower" parent="." instance=ExtResource("3_xws28")]
+position = Vector2(320, 64)
+
+[node name="Projectile" parent="." instance=ExtResource("4_sclmo")]
+position = Vector2(320, 16)

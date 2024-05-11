@@ -1,0 +1,53 @@
+[gd_scene load_steps=6 format=3 uid="uid://msfouuk5m8jj"]
+
+[ext_resource type="Texture2D" uid="uid://boebck6r4rfv2" path="res://Sprites/custom/Solaria_KnightStatue.png" id="1_5erlr"]
+[ext_resource type="Script" path="res://scripts/MeleeTower.cs" id="1_cvvju"]
+[ext_resource type="Texture2D" uid="uid://d22unljb5oc32" path="res://Sprites/custom/Solaria_Sword.png" id="2_ldyfi"]
+[ext_resource type="Script" path="res://scripts/Sword.cs" id="3_04ded"]
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_8d4wp"]
+b = Vector2(64, 0)
+
+[node name="MeleeTower" type="Node2D" groups=["towerGroup"]]
+script = ExtResource("1_cvvju")
+targetingRangePx = 64.0
+AttackCooldown = 2.0
+AttackDamage = 4
+cost = 30
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_5erlr")
+offset = Vector2(0, -8)
+
+[node name="Cooldown" type="Timer" parent="."]
+one_shot = true
+
+[node name="Selector" type="Button" parent="."]
+visibility_layer = 0
+offset_left = -8.0
+offset_top = -24.0
+offset_right = 8.0
+offset_bottom = 8.0
+disabled = true
+
+[node name="Sword" type="RigidBody2D" parent="."]
+visible = false
+z_index = 2
+collision_mask = 0
+center_of_mass_mode = 1
+gravity_scale = 0.0
+can_sleep = false
+freeze = true
+script = ExtResource("3_04ded")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sword"]
+shape = SubResource("SegmentShape2D_8d4wp")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sword"]
+scale = Vector2(3, 2)
+texture = ExtResource("2_ldyfi")
+offset = Vector2(14, -6)
+
+[connection signal="timeout" from="Cooldown" to="." method="OnCooldownTimeout"]
+[connection signal="pressed" from="Selector" to="." method="OnSelectorPressed"]

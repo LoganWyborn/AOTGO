@@ -1,0 +1,50 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1703369731
+export_presets.cfg::TextFile::-1::1697743812::0::1::::<><>::
+icon.svg::CompressedTexture2D::1499025693824199365::1696361431::1696361438::1::::<><>::
+LevelData.json::JSON::-1::1697742096::0::1::::<><>::
+Main.tscn::PackedScene::1936392136136372695::1697743647::0::1::::<><>::res://scripts/Main.cs<>uid://bwkjlpmsk1smx::::res://Mob.tscn<>uid://bh1v8bptwkvk2::::res://Tilesets/SolariaDemoTileSet.tres<>uid://dcb1xq17fwqgn::::res://ShortRangeTower.tscn<>uid://msfouuk5m8jj::::res://MeleeTower.tscn<>uid://bki8x20nmwpy2::::res://Sprites/custom/Solaria_Pedestal.png<>uid://crl2it6pfyjjo::::res://Sprites/custom/heart.png<>uid://c2l1ryrjdt753::::res://Sprites/custom/grey sample.png<>uid://da2okknijbolx::::res://RangedTower.tscn<>uid://cj7cksexorwxj::::res://Sprites/custom/hex.png<>uid://ops0qc1ka0k5::::res://Sprites/custom/cash.png<>res://scripts/AnnouncementLabel.cs<>uid://boebck6r4rfv2::::res://Sprites/custom/Solaria_KnightStatue.png<>uid://blo0v40ey6y0o::::res://Sprites/custom/Solaria_LitLamp.png<>uid://d1yl8ee6bf88w::::res://Sprites/custom/transparent.png
+MeleeTower.tscn::PackedScene::879754591166011071::1697737701::0::1::::<><>::uid://boebck6r4rfv2
+Mob.tscn::PackedScene::3951785925158412583::1697742096::0::1::::<><>::uid://tfp7a8k3r6t4
+Projectile.tscn::PackedScene::863832959101740566::1697737701::0::1::::<><>::res://scripts/Projectile.cs<>uid://cqc2akltequq3
+RangedTower.tscn::PackedScene::7215868691968221725::1697738014::0::1::::<><>::res://scripts/RangedTower.cs<>uid://mkpg5ieg3yhi
+ShortRangeTower.tscn::PackedScene::7303324713181184153::1697737701::0::1::::<><>::res://scripts/ShortRangeTower.cs<>uid://blo0v40ey6y0o
+TowerTestScene.tscn::PackedScene::4011885366588406308::1696528790::0::1::::<><>::uid://bwkjlpmsk1smx
+::res://Builds/::1697743881
+::res://Builds/Beta 1/::1697743953
+::res://Builds/Beta 1/data_TDGame2_x86_64/::1697743811
+TDGame2.deps.json::JSON::-1::1697743811::0::1::::<><>::
+TDGame2.runtimeconfig.json::JSON::-1::1697743811::0::1::::<><>::
+::res://scripts/::1697576645
+AnnouncementLabel.cs::CSharpScript::-1::1697083160::0::1::::<><>::
+Main.cs::CSharpScript::-1::1697742809::0::1::::<><>::
+MeleeTower.cs::CSharpScript::-1::1697738098::0::1::::<><>::
+Mob.cs::CSharpScript::-1::1697490423::0::1::::<><>::
+MobPropsContainer.cs::CSharpScript::-1::1697069002::0::1::::<><>::
+Projectile.cs::CSharpScript::-1::1697576787::0::1::::<><>::
+RangedTower.cs::CSharpScript::-1::1697738081::0::1::::<><>::
+ShortRangeTower.cs::CSharpScript::-1::1697738101::0::1::::<><>::
+Sword.cs::CSharpScript::-1::1697569819::0::1::::<><>::
+TestMob.cs::CSharpScript::-1::1696525306::0::1::::<><>::
+TowerBase.cs::CSharpScript::-1::1697494461::0::1::::<><>::
+WaveSetModels.cs::CSharpScript::-1::1697735418::0::1::::<><>::
+::res://Sprites/::1696971819
+Hero 01.png::CompressedTexture2D::7627993474383877902::1696361533::1696361538::1::::<><>::
+Minecart 01.png::CompressedTexture2D::1199208219330524005::1696361533::1696361538::1::::<><>::
+Slime 01.png::CompressedTexture2D::1344877869660389863::1696361533::1696361538::1::::<><>::
+Sword 01.png::CompressedTexture2D::5295240545606317374::1696361533::1696361538::1::::<><>::
+::res://Sprites/custom/::1697570793
+cash.png::CompressedTexture2D::1014747872618693558::1697079037::1697079044::1::::<><>::
+grey sample.png::CompressedTexture2D::6692258588451836480::1696447468::1696971808::1::::<><>::
+heart.png::CompressedTexture2D::5990414556205100564::1697077840::1697079044::1::::<><>::
+hex.png::CompressedTexture2D::5470741292846926391::1696538637::1696971812::1::::<><>::
+Solaria_GoldBar.png::CompressedTexture2D::125034112878636674::1697077531::1697079044::1::::<><>::
+Solaria_KnightStatue.png::CompressedTexture2D::3377386868156638769::1696451562::1696971815::1::::<><>::
+Solaria_LitLamp.png::CompressedTexture2D::3188956240771783928::1697570790::1697570793::1::::<><>::
+Solaria_Pedestal.png::CompressedTexture2D::3106870333485152727::1696451473::1696971818::1::::<><>::
+Solaria_Projectile.png::CompressedTexture2D::5901631523003155308::1696457897::1696971820::1::::<><>::
+Solaria_Sword.png::CompressedTexture2D::9111337175588054795::1697253965::1697253967::1::::<><>::
+transparent.png::CompressedTexture2D::9034444087567560980::1697232820::1697232822::1::::<><>::
+::res://Tilesets/::1697743647
+Solaria Demo Update 01.png::CompressedTexture2D::4452469773071238207::1696361533::1696361538::1::::<><>::
+SolariaDemoTileSet.tres::TileSet::2932750475400345747::1697743647::0::1::::<><>::uid://b4o2r52nmjijf::::res://Tilesets/Solaria Demo Update 01.png
